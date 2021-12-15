@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Lab 12</title>
+</head>
+<body>
+<h1>Experiment 1</h1>
+<font face="verdana" size="2px">
+	 <form action="exp1" method="get">
+     <input type="submit" value="Get all the initialization parameters">
+     </form>
+     <form action="exp1" method="post">
+     OOPS topic check :
+        <input type="checkbox" name="topic" value="JSP">JSP
+        <input type="checkbox" name="topic" value="Servlets">Servlets
+        <input type="checkbox" name="topic" value="JDBC">JDBC
+        <input type="checkbox" name="topic" value="Interfaces">Interfaces
+        <input type="submit" value="Submit">
+     </form>
+</font>
+<h1>Experiment 2</h1>
+<form action="exp2" method="get">
+	<input type="submit" value="Get Current Date">
+</form>
+
+<h1>Experiment 3</h1>
+<form action="exp3" method="post"> 
+	Name:<input type="text" name="userName"/><br/> 
+<input type="submit" value="login"/> 
+</form> 
+
+<h1>Experiment 4</h1>
+<form action="exp4" method="post"> 
+	<input type="text" name="num1"/>
+	<select name="op">
+		<option value="+">+</option>
+		<option value="-">-</option>
+		<option value="*">*</option>
+		<option value="/">/</option>		
+	</select>
+	<input type="text" name="num2"/>
+	<input type="submit" value="calculate"/> 
+</form> 
+</body>
+</html>
