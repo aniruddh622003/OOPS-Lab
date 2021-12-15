@@ -1,0 +1,66 @@
+<web-app>
+
+    <servlet>
+        <servlet-name>Experiment1</servlet-name>
+        <servlet-class>experiment1.Experiment1</servlet-class>
+	</servlet>
+    <servlet>
+        <servlet-name>Experiment2</servlet-name>
+        <servlet-class>experiment2.Experiment2</servlet-class>
+	</servlet>
+    <servlet>
+        <servlet-name>Experiment3</servlet-name>
+        <servlet-class>experiment3.Experiment3</servlet-class>
+	</servlet>
+    <servlet>
+        <servlet-name>SubServe1</servlet-name>
+        <servlet-class>experiment3.Servlet1</servlet-class>
+	</servlet>
+    <servlet>
+        <servlet-name>SubServe2</servlet-name>
+        <servlet-class>experiment3.Servlet2</servlet-class>
+	</servlet>
+    <servlet>
+        <servlet-name>Experiment4</servlet-name>
+        <servlet-class>experiment4.Experiment4</servlet-class>
+	</servlet>
+
+    <servlet-mapping>
+            <servlet-name>Experiment1</servlet-name>
+            <url-pattern>/exp1</url-pattern>
+	</servlet-mapping>
+
+    <servlet-mapping>
+            <servlet-name>Experiment2</servlet-name>
+			<url-pattern>/exp2</url-pattern>
+	</servlet-mapping>
+    <servlet-mapping>
+            <servlet-name>Experiment3</servlet-name>
+			<url-pattern>/exp3</url-pattern>
+	</servlet-mapping>
+    <servlet-mapping>
+            <servlet-name>SubServe1</servlet-name>
+			<url-pattern>/serve1</url-pattern>
+	</servlet-mapping>
+    <servlet-mapping>
+            <servlet-name>SubServe2</servlet-name>
+			<url-pattern>/serve2</url-pattern>
+	</servlet-mapping>
+    <servlet-mapping>
+            <servlet-name>Experiment4</servlet-name>
+			<url-pattern>/exp4</url-pattern>
+	</servlet-mapping>
+
+
+   <welcome-file-list>  
+        <welcome-file>index.html</welcome-file>  
+   </welcome-file-list> 
+
+   <context-param>
+   	<param-name>username</param-name>
+   	<param-value>aniruddh</param-value></context-param>
+   <context-param>
+   	<param-name>Lab No.</param-name>
+   	<param-value>12</param-value></context-param>
+   
+</web-app>
